@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<meta http-equiv="content-type" content="text/html" />
+		<meta name="author" content="GallerySoft.info" />
+		<title>
+			Setting
+		</title>
+	</head>
+	<body>
+		<h1>
+			IELTS
+		</h1>
+		<div>
+			<nav>
+				<a href="ProfilePage.html">User</a>
+			</nav>
+			<nav>
+				<a href="home.html">Home</a>
+			</nav>
+			<nav>
+				<a href="findfriend">Find Friend</a>
+			</nav>
+		</div>
+		<span>
+			<nav>
+				<a href="setchung.html">Chung</a>
+			</nav>
+			<a href="setbaomat.html">Bao mat</a>
+			<a href="setquyenriengtu.html">Quyen rieng tu</a>
+			<a href="setchan.html">Chan</a>
+			<a href="settimeline.html">Dong thoi gian</a>
+		</span>
+		<h3>
+			Block User
+		</h3>
+		<div class="blockfriend" id="btn-btnbf">
+			<div>
+				<input type="text"/>
+				<input type="button" value="Block" id="btn-btnbf" data-loading-text="Blocking..." />
+                <script>
+                $('#mybutton').one("click",fuction(){
+                    var $btn=$(this).button('loading')
+                    //bussiness logic....
+                    $btn.buttonText('block')
+                })
+                </script>
+			</div>
+			<br style="height: auto;" />
+			<div class="blockfriend" id="bfd">
+				<datalist>
+					username1
+					<input type="button" value="UnBlock" onclick="delete"/>
+					<br/>
+					username2
+					<input type="button" value="UnBlock" />
+					<br />
+					username3
+					<input type="button" value="UnBlock" />
+				</datalist>
+			</div>
+		</div>
+	</body>
+
+</html>
