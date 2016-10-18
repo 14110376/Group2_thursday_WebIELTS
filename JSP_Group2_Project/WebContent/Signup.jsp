@@ -1,0 +1,184 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+ <head>
+  <meta charset "utf - 8">
+  <meta http-equiv = "X-UA-Compatible" content = "IE=edge">
+	<title> IELTS Drive Sign-up</title>
+		<meta name="Generator" content="EditPlus">
+		<meta name="Author" content="">
+		<meta name="Keywords" content="">
+		<meta name="Description" content="">
+		<link href="IELTS/css/bootstrap.min.css" rel="stylesheet">
+		<link rel = "stylesheet" href="IELTS/css/bootstrap-theme.min.css">
+		<link href="IELTS/css/style.css" rel="stylesheet">
+		<style type="text/css">
+		.jumbotron{
+                margin-top: 30px;
+				margin-left: 700px;
+				margin-right: 0px;
+				text-align: left;
+            }
+		div #bg{position:fixed;top:0;left:0;width:100%;height:100%;z-index:-1;}
+		.col-md-12 input{
+			margin-top: 10px;
+		}
+		.col-md-12 a{
+			display: block;
+			margin-top: 10px;
+		}
+		.radio label {
+		display: inline-block;
+		cursor: pointer;
+		position: relative;
+		padding-left: 55px;
+		margin-right: 15px;
+		font-size: 16px;
+		}
+		.checkbox{
+			display: block;
+		}
+		</style>
+ </head>
+
+ <body>
+	<div class="container">
+		<nav class="navbar navbar-inverse navbar-fixed-top" style="background-color: rgba(0, 0, 0, 0.8);padding: 10px">
+			<div class="container">
+				<!-- Nav -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#" style="font-size: 30px"><font color="white" face="Segoe UI Light"><b>IELTS Drive</b></font></a>
+				</div>
+				<!-- Nav collapse -->
+				<div class="collapse navbar-collapse" id="menu">
+					<!--ul class="nav navbar-nav">
+						<li><a href="#">Introduction</a></li>
+						<li><a href="#">Help</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul-->
+					
+					<div class="nav navbar-nav navbar-right">
+						<button class="btn btn-info navbar-btn">Login</button>
+					</div>
+					<!--div class="search-box"> 
+						<form class="search-form" action="http://www.ieltsdrive.com.vn"> <input class="form-control" placeholder="Name, exam, friends, etc." type="text"> 
+						<button class="btn btn-link search-btn"> <i class="glyphicon glyphicon-search"></i> 
+						</button>
+						</form>
+					</div-->
+				</div>
+				<!-- /.navbar-collapse -->
+			</div>
+			<!-- /.container -->
+		</nav>
+		<!-- /Navigation -->
+		<center style="font-size: 35px; margin-top: 80px"><font align="center" face="Segoe UI Light" color="black"=>CREATE YOUR IELTS DRIVE ACCOUNT</font></center>
+		<img src="images\study1.jpg" align="bottom" width="650" height="360" style="margin-top: 30px;float: left"/>
+		<img src="images\study2.jpg" align="bottom" width="650" height="360" style="margin-top: 30px;float: left"/> 
+			<div class="col-md-12">
+				<div class="jumbotron" style="background-color: rgba(0, 0, 0, 0.2);margin-top: -750px">
+						<div class="row">
+							<div class="col-md-12">
+								<label style="margin-bottom: -10px">Name</label>
+								<input type="Name" class="form-control" placeholder="First Name">
+								<input type="Name" class="form-control" placeholder="Last Name">
+								<label style="margin-bottom: -10px;margin-top: 15px">User Name</label>
+								<input type="UserName" class="form-control" placeholder="User Name">
+								<a href="http://www.ieltsdrive.com.vn/" style="float:right;margin-top: -2px"><font face="Segoe UI Light" color="blue"><u>Check Username</u></font></a>
+								<label style="margin-bottom: -10px;margin-top: 15px">Password</label>
+								<input type="password" class="form-control" placeholder="Password">
+								<label style="margin-bottom: -10px;margin-top: 15px">Re-enter Password</label>
+								<input type="password" class="form-control" placeholder="Re-enter Password">
+								<label style="margin-bottom: -10px;margin-top: 15px">Email</label>
+								<input type="Email" class="form-control" placeholder="Email">
+								<label style="margin-bottom: -10px;margin-top: 15px">Re-enter Email</label>
+								<input type="Email" class="form-control" placeholder="Re-enter Email">
+								<label style="margin-bottom: -10px;margin-top: 15px">Phone No.</label>
+								<input type="Phone No." class="form-control" placeholder="Phone No.">
+								<label style="margin-bottom: -10px;margin-top: 15px">Gender</label>
+								<div class="radio">
+									<input id="male" type="radio" name="gender" value="male" style="margin-left: 30px;margin-top: 5px">
+									<label for="male">Male</label>
+									<input id="female" type="radio" name="gender" value="female" style="margin-left: 30px;margin-top: 5px">
+									<label for="female" style="">Female</label>
+								</div>
+								<label style="margin-bottom: 0px;margin-top: 0px">Birthday</label>
+								<select name="day" class="form-control">
+									<option value="1">1st</option>
+									<option value="2">2nd</option>
+									<option value="3">3th</option>
+									<option value="4">4th</option>
+									<option value="5">5th</option>
+									<option value="6">6th</option>
+									<option value="7">7th</option>
+									<option value="8">8th</option>
+									<option value="9">9th</option>
+									<option value="10">10th</option>
+									<option value="11">11st</option>
+									<option value="12">12nd</option>
+									<option value="13">13th</option>
+									<option value="14">14th</option>
+									<option value="15">15th</option>
+									<option value="16">16th</option>
+									<option value="17">17th</option>
+									<option value="18">18th</option>
+									<option value="19">19th</option>
+									<option value="20">20th</option>
+									<option value="21">21st</option>
+									<option value="22">22nd</option>
+									<option value="23">23th</option>
+									<option value="24">24th</option>
+									<option value="25">25th</option>
+									<option value="26">26th</option>
+									<option value="27">27th</option>
+									<option value="28">28th</option>
+									<option value="29">29th</option>
+									<option value="30">30th</option>
+									<option value="31">31st</option>
+								</select>
+								<select name="month" class="form-control">
+									<option value="1">January</option>
+									<option value="2">Febuary</option>
+									<option value="3">March</option>
+									<option value="4">April</option>
+									<option value="5">May</option>
+									<option value="6">June</option>
+									<option value="7">July</option>
+									<option value="8">August</option>
+									<option value="9">September</option>
+									<option value="10">October</option>
+									<option value="11">November</option>
+									<option value="12">December</option>
+								</select>
+								<select name="year" class="form-control">
+									<option value="1">2011</option>
+									<option value="2">2012</option>
+									<option value="3">2013</option>
+									<option value="4">2014</option>
+									<option value="5">2015</option>
+									<option value="6">2016</option>
+								</select>
+								<label style="margin-bottom: 0px;margin-top: 15px">Address</label>
+								<textarea col="20" class="form-control"></textarea>
+								<div class="checkbox" style="float:left">
+									<label>
+									<input type="checkbox"> I agree with 
+									<a href="http://www.ieltsdrive.com.vn/" style="block;margin-top: -3px"><font face="Segoe UI Light" color="blue"><u>Policies of IELTS Drive website</u></font></a>
+									</label>
+								</div>
+								<a href="http://www.ieltsdrive.com.vn/" class="btn btn-danger btn-lg" style="block;margin-top: 60px">Create Account</a>
+							</div>
+						</div>
+				</div>
+			</div>
+	</div>
+		<script type="text/javascript" src ="js/jquery-3.1.1.min.js"></script>
+		<script type="text/javascript" src ="js/bootstrap.min.js"></script>
+	</div>
+ </body>
+</html>
